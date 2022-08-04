@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/import_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导入txt文件"/>
+
+    <Button
+        android:id="@+id/load_edf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导出edf文件"/>
+
+</LinearLayout>
